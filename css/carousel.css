@@ -27,6 +27,42 @@ body {
   height: 32rem;
 
 }
+
+.carousel-item1 {
+background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/beverage.jpg);
+background-repeat: no-repeat;
+ background-size: 100% auto;
+background-position: 10% 50%;
+}
+
+.carousel-item2 {
+background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/car.jpg);
+background-repeat: no-repeat;
+background-size: 100% auto;
+background-position: center;
+}
+
+.carousel-item3 {
+background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/steel.jpg);
+background-repeat: no-repeat;
+background-size: 100% auto;
+background-position: center;
+}
 .carousel-item > img {
   position: absolute;
   margin: auto;
@@ -37,16 +73,6 @@ body {
   min-width: 100%;
   width : 1000px;
   min-height: 10px ;
-/*8 opacity: 1.1;
-  filter: alpha(opacity=110);*/
-
- background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(./img/car.jpg);
-
 }
 
 
